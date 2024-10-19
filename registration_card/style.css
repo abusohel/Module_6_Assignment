@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to right, #667DE9, #8b00ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* card style start  */
+.card {
+  background-color: white;
+  width: 700px;
+  height: 350px;
+  padding: 20px 50px;
+  border-radius: 8px;
+}
+.card h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #8b00ff;
+  color: #0726b3;
+}
+
+/* card style end  */
+
+/* form group style start */
+.form-item {
+  display: flex;
+  gap: 40px;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.form-group label {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px; 
+  width: 160px; 
+}
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+  width: calc(100% - 170px); 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.form-group .gender-options {
+  display: flex;
+  margin-top: 5px;
+}
+.form-group .gender-options label {
+  font-weight: normal;
+  margin-left: 10px;
+}
+/* form group style end */
+
+/* form button style start */
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+.form-buttons button {
+  width: 20%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+.form-buttons .cancel-btn {
+  background-color: #f17269;
+  color: white;
+}
+.form-buttons .submit-btn {
+  background-image: linear-gradient(to right, #667DE9, #8b00ff);
+  color: white;
+}
+/* form button style end */
